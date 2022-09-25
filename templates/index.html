@@ -1,0 +1,7 @@
+<h1>Index</h1>
+
+<ul>
+  {{ range $p := . }}
+  <li><a href="/view/{{$p.Title}}">{{$p.Title}}</a></li>
+  {{ end }}
+</ul>
